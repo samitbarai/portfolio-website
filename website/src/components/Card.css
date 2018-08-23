@@ -1,0 +1,25 @@
+.Card {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 2px solid #4A6AE2;
+    border-radius: 4px;
+    background-color: #E2E7FA;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.Card h3 {
+    color: #4A6AE2;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.Card .Contents {
+    width: 88px;
+    display: grid;
+}
+

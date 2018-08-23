@@ -6,14 +6,26 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
+  color: #444444;
+}
+
+.Title {
+  max-width: 632px;
+  margin: 64px auto 0 auto;
 }
 
 .Title h1 {
   font-family: 'Abril Fatface';
-  letter-spacing: 2px;
-  font-size: 40px;
+  letter-spacing: 3px;
+  font-size: 48px;
   margin: 0;
-  margin-top: 64px;
+}
+
+.Title p {
+  font-size: 18px;
+  color: #4A6AE2;
+  font-weight: 300;
+  margin-top: 16px;
 }
 
 a {
@@ -24,13 +36,23 @@ a {
 
 p {
   font-size: 18px;
-  color: #444444;
   font-weight: 400;
 }
 
-.Title p {
-  font-size: 18px;
-  color: #4A6AE2;
-  font-weight: 300;
-  margin-top: 24px;
+.GraphicDesigns {
+  margin: 0 auto;
+  max-width: 632px;
+  margin-top: 87px;
+}
+
+.GraphicDesigns h2 {
+  font-size: 20px;
+  color: #A4A4A4;
+  font-weight: 400px;
+}
+
+.GraphicDesigns .CardGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
 }
