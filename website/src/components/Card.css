@@ -4,16 +4,21 @@
     position: relative;
     border: 2px solid #4A6AE2;
     border-radius: 4px;
-    background-color: #E2E7FA;
+    /* background-color: #E2E7FA; */
     display: grid;
     align-items: center;
     justify-items: center;
+    transition: background-color 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Card:hover {
     border: 2px solid #4A6AE2;
     border-radius: 4px;
-    background-color: rgb(133, 158, 245);
+    background-color: #4A6AE2;
+}
+
+.Card:hover h3 {
+    color: #FFFFFF;
 }
 
 .Card img {

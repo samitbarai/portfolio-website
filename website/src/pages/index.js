@@ -5,21 +5,21 @@ import Card from '../components/Card';
 const IndexPage = () => (
   <div>
     <div className = "Title">
-      <h1>Samit Barai~</h1>
-      <p>Product Designer, Juspay Technologies</p>
+      <h1>JUSPAY DESIGNS!!</h1>
+      <p>Juspay Technologies, Bangalore, India</p>
     </div>
     <div className = "GraphicDesigns">
       <div className = "Header"><h2>Graphic Designs</h2></div>
       <div className="CardGroup">
         <Card
           title = "Sketches"
-          image1 = {require('../images/house-sketch.svg')} />
+          image1 = "images/house-sketch" />
         <Card
           title = "Paintings"
-          image1 = {require('../images/painting.svg')} />
+          image1 = "images/painting" />
         <Card
           title = "Animations"
-          image1 = {require('../images/animation.svg')} />
+          image1 = "images/animation" />
       </div>
     </div>
   </div>
