@@ -5,7 +5,7 @@ import Card from '../components/Card';
 const IndexPage = () => (
   <div>
     <div className = "Title">
-      <h1>Samit Barai</h1>
+      <h1>Samit Barai~</h1>
       <p>Product Designer, Juspay Technologies</p>
     </div>
     <div className = "GraphicDesigns">
@@ -13,13 +13,13 @@ const IndexPage = () => (
       <div className="CardGroup">
         <Card
           title = "Sketches"
-          image = {require('../images/house-sketch.svg')} />
+          image1 = {require('../images/house-sketch.svg')} />
         <Card
           title = "Paintings"
-          image = {require('../images/painting.svg')} />
+          image1 = {require('../images/painting.svg')} />
         <Card
           title = "Animations"
-          image = {require('../images/animation.svg')} />
+          image1 = {require('../images/animation.svg')} />
       </div>
     </div>
   </div>

@@ -10,6 +10,16 @@
     justify-items: center;
 }
 
+.Card:hover {
+    border: 2px solid #4A6AE2;
+    border-radius: 4px;
+    background-color: rgb(133, 158, 245);
+}
+
+.Card img {
+    align-content: center;
+}
+
 .Card h3 {
     color: #4A6AE2;
     font-size: 20px;
